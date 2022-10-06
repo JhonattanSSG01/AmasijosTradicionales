@@ -1,6 +1,6 @@
 # Bienvenidos 👋👋!!! 
 
-![image](https://user-images.githubusercontent.com/80645321/194385255-2ded05e9-f86a-49a9-bbf2-e3995fc1dc76.png)
+## **Amasijos Tradicionales de Colombia**
 La página web se enfoca principalmente en informar a la comunidad todo lo relacionado con los amasijos tradicionales en Colombia que prácticamente es un manjar, primordialmente se describe el significado de la palabra amasijo y la historia de cada producto que lo denomina. Además, se da una pequeña receta de cada amasijo tradicional para realizar la preparación en casa. Finalmente, se desarrolla un espacio para que los usuarios puedan interactuar mecho mejor con la página y comentar sobre que tal le pareció la receta o como tal la página. 
 
 ## Inicio del proyecto 💢
@@ -11,15 +11,6 @@ Principalmente, se inició clonando el repositorio de GitHub donde se alojaba un
 Luego de revisar la estructura propuesta de la plantilla, logre entender que se manejó mediante una librería la cual era W3School para dar una mejor visualización acorde. De igual manera, decidí cambiarla por la librería Bootstrap la cual ya tengo un poco de experiencia en utilizarla.
 
 # Estructura de HTML 💯
-## Estándar principal de un documento de HTML 🔹
-```
-<!DOCTYPE html>
-<html>
-  ‘En este campo va todo el código’
-</html>
-```
-Esta parte del código es significativo para empezar un documento HTML, se basa en identificar que versión de HTML que usaremos posteriormente, en este caso utilice HTML5 que es la versión más reciente y semántica para poder leer mejor el código. 
-
 ## Head del documento HTML 🔹
 ```
 <head>
@@ -91,20 +82,6 @@ Esta parte del código incluida en las etiquetas ```<body><main></main></body>``
 Esta parte del código incluida en las etiquetas ```<body><main></main></body>```, tiene como propósito informar a los usuarios sobre “¿Qué son los amasijos?” y esa información descriptiva envuelve alrededor una imagen alusiva sobre el tema principal.
 
 ![image](https://user-images.githubusercontent.com/80645321/194387917-865cb2b7-e469-40ae-aafa-fbdc00b90202.png)
-
-## Sección del video descriptivo 🎦
-```
-<!-- Video -->
-  <section class="m-5 p-5">
-    <iframe>
-     'video desciprivo de youtube'
-    </iframe>
-  </section>
-<!-- END Video -->
-```
-Esta parte del código incluida en las etiquetas ```<body><main></main></body>```, es una sección que tiene como propósito transmitir por medio de un video en YouTube los productos tradicionales en Colombia.
-
-![image](https://user-images.githubusercontent.com/80645321/194387975-6a1ea06d-4062-4a24-b57b-f8b3b7ca97be.png)
 
 ## Sección de la historia de los amasijos y sus productos 🔸
 ```
@@ -189,7 +166,6 @@ Con base a la estructura desarrollada en la página principal, logre realizar la
 ![image](https://user-images.githubusercontent.com/80645321/194392099-24b5389f-46c3-46aa-8573-d5a7f780c85c.png)
 
 
-     
 ## Sección de formularios
 
 ```
@@ -215,6 +191,6 @@ Con base a la estructura desarrollada en la página principal, logre realizar la
 ```
 
 Esta parte del código abarca un formulario básico que se encuentra en cada receta y en el foro para que los usuarios puedan dar sus opiniones frente a la web.
-    
+
 ![image](https://user-images.githubusercontent.com/80645321/194395599-6dd3f349-34df-4c2e-b1b2-0f67e406daee.png)
 
