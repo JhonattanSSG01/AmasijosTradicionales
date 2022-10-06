@@ -15,7 +15,7 @@ h1{
 }
 
 h2{
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 900;
 }
 
@@ -117,7 +117,7 @@ li .link{
 }
 
 .carousel-caption{
-  top: calc(80% - (700px/2));
+  top: calc(90% - (700px/2));
 }
 
 /* Estilos para alguna secciones en resenha */
@@ -161,7 +161,7 @@ li .link{
 
 .content-first-left{
   width: 30%;
-  margin-right: 30px;
+  margin-right: 40px;
   float: left;
 }
 /* Estilos para alguna secciones en resenha */
