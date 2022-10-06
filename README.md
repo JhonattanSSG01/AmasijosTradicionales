@@ -164,7 +164,7 @@ Con base a la estructura desarrollada en la página principal, logre realizar la
 ![image](https://user-images.githubusercontent.com/80645321/194437195-cd0b3155-4183-4b31-bf02-092daefea79e.png)
 
 >Vista comunidad
-![image](https://user-images.githubusercontent.com/80645321/194392099-24b5389f-46c3-46aa-8573-d5a7f780c85c.png)
+![image](https://user-images.githubusercontent.com/80645321/194437375-c705a6dd-41bc-4d54-898b-5fb490ad835d.png)
 
 
 ## Sección de formularios
