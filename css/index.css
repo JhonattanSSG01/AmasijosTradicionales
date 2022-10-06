@@ -1,0 +1,344 @@
+/* Estilos para todos los titulos, parrafos, enlaces e imagenes */
+*{
+  font-family: 'Open Sans';
+  color: #000000;
+}
+
+*::selection{
+  color: #A38027;
+  background-color: #B9B9B9;
+}
+
+h1{
+  font-size: 50px;
+  font-weight: 600;
+}
+
+h2{
+  font-size: 60px;
+  font-weight: 900;
+}
+
+h3{
+  font-size: 35px;
+  font-weight: 600;
+}
+
+p{
+  font-size: 30px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+img{
+  object-fit: cover;
+}
+
+/* Header */
+
+.part-body{
+  background-color: #F0E3C0;
+}
+
+.header-fixed{
+  height: 125px;
+}
+
+.part-header {
+  width: 100%;
+  height: inherit;
+  padding: 0 50px;
+  position: fixed;
+  background-color: #A38027;
+  z-index: 3;
+}
+
+
+/* Estilos para la parte del logo */
+
+.logo p{
+  margin: 0 35px;
+  color: #FFFFFF;
+}
+
+/* Estilos para el menu */
+
+.dropdown-menu{
+  width: calc(40px * 10);
+  padding: 20px;
+  background-color: #000000b5;
+}
+
+.dropdown-menu .principal{
+  color: #A38027 !important;
+  font-weight: 700 !important;
+}
+
+.nav-header{
+  position: absolute;
+  bottom: calc(100% - 100px);
+  right: 25px;
+}
+
+.nav-header ul li{
+  margin-right: 6em;
+  display: inline-block;
+}
+
+li .link{
+  border-top: 5px solid #000000;
+  border-radius: 10px 5px 0 0;
+  font-weight: 600;
+}
+
+.nav-header li a, .nav-item a{
+  color: #FFFFFF !important;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.nav-header li a:hover, .nav-item a:hover{
+  color: #F0E3C0 !important;
+}
+
+
+/* Estilos para el slider o carrusel */
+
+.carousel-indicators button{
+  width: 20px !important;
+  height: 20px !important;
+  margin-left: 20px !important;
+  border-radius: 50% !important;
+  background-color: #000000 !important;
+}
+
+.carousel-item img{
+  opacity: .7;
+}
+
+.carousel-caption{
+  top: calc(80% - (700px/2));
+}
+
+/* Estilos para alguna secciones en resenha */
+.resenha-image{
+  position: relative;
+}
+
+.resenha-image img{
+  opacity: .7;
+}
+
+.resenha-image h2{
+  width: 100%;
+  position: absolute;
+  top: calc(80% - (500px/2));
+}
+/* resenha */
+
+.area-icon{
+  width: 200px;
+}
+
+.area-icon span{
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  background-color: #B3B3B3;
+}
+
+/* Body */
+/* Estilos para la parte de historia */
+
+.content-image{
+  border-radius: 0 0 25% 25%;
+}
+
+.content-first{
+  margin-bottom: 90px;
+  position: relative;
+}
+
+.content-first-left{
+  width: 30%;
+  margin-right: 30px;
+  float: left;
+}
+/* Estilos para alguna secciones en resenha */
+.content-rigth{
+  width: 30%;
+  margin-right: 30px;
+  float: right;
+}
+/* resenha */
+
+.content-first hr{
+  width: 75%;
+  position: absolute;
+  right: 0;
+  color: #B97D51;
+  border-top: 40px solid;
+  border-radius: 25px;
+  opacity: .8;
+}
+
+/* Video */
+
+.video-text{
+  padding: 0 40px;
+}
+
+.video{
+  width: 100%;
+  margin: 40px 0;
+  padding: 30px 0;
+}
+
+.video iframe{
+  border-radius: 60px;
+}
+
+/* Estilos para la parte de resenha */
+
+.content-links article, span{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hyper-recetas a{
+  color: #000000;
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 3px solid #A38027;
+}
+
+/* Estilos para la parte de Productos */
+
+.content-third img{
+  border-radius: 50%;
+}
+
+.content-third i{
+  font-size: 25px;
+  cursor: pointer;
+}
+
+/* Estilos para la parte de Recetas */
+
+.content-middle .hyper-recetas{
+  text-align: right;
+}
+
+.content-last:first-child{
+  text-align: right;
+}
+
+.content-last-text{
+  padding-left: 35px;
+}
+
+/* Estilos para iconos especiales */
+
+.links-icons{
+  font-size: x-large;
+}
+
+.links-icons i{
+  cursor: pointer;
+}
+
+.links-icons i:first-child, .links-icons i:nth-child(2){
+  margin-right: 15px;
+}
+
+/* Estilos para formulario */
+
+.content-formulario input, textarea{
+  width: 100%;
+  padding: 15px;
+  background-color: #B97D51;
+  border-radius: 10px;
+  font-size: x-large;
+}
+
+.content-form form{
+  position: relative;
+}
+
+.content-form button{
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+  font-size: x-large;
+}
+
+/* Estilos para la parte de la comunidad */
+
+.part-comunity, .seccion-comment{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.part-comunity{
+  padding: 55px;
+}
+
+.space-last img{
+  border-radius: 50%;
+  padding: 25px;
+}
+
+.space-last{
+  border-right: 10px solid #000000;
+}
+
+.space-last i{
+  padding: 25px;
+  font-size: 20px;
+}
+
+.space-last strong{
+  margin-left: 10px;
+}
+
+.content-shedule {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.div-comunity{
+  max-width: 80%;
+  border: dashed #000000;
+}
+
+/* Footer */
+
+.part-footer{
+  height: auto;
+  padding: 0 10px 20px 10px;
+  background-color: #A38027;
+  position: relative;
+}
+
+.part-footer .logo p{
+  display: inline;
+  vertical-align: bottom;
+}
+
+.icons-footer i{
+  font-size: 55px;
+  color: #FFFFFF !important;
+}
+
+.credits{
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+  color: #FFFFFF !important;
+}
