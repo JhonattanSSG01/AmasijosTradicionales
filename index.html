@@ -1,0 +1,322 @@
+<!-- Los comentarios a lo largo del codigo son muy importantes nos ayudan  -->
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Importamos recursos externos -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <!-- Importamos recurso css para los estilos-->
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.css">
+  <link rel="shortcut icon" href="img/logoPestaña.png" type="image/x-icon">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <title>AT | Amasijos Tradicionales</title>
+</head>
+
+<!-- Contenido de nuestra pagina -->
+
+<body>
+  <!-- START Boostrap -->
+  <div class="part-body container p-0" style="max-width:100%;">
+    <!-- Header -->
+    <section class="header-fixed">
+      <header class="part-header">
+        <section class="logo">
+          <img src="img/logoHeader.png" width="150px" height="80px" alt="logo de la empresa">
+          <p>Amasijos Tradicionales</p>
+        </section>
+        <nav class="nav-header">
+          <ul>
+            <li><a class="link" href="index.html">Home</a></li>
+            <li><a href="seccion1.html">Reseña Historica</a></li>
+            <li class="nav-item dropdown">
+              <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Recetas
+              </a>
+              <ul class="dropdown-menu text-center">
+                <div class="row">
+                  <div class="col-md">
+                    <li class="m-0"><a href="seccion2.html">Recetas</a></li>
+                    <li class="m-0"><a href="buñuelos.html">Buñuelos</a></li>
+                    <li class="m-0"><a href="almojabanas.html">Almojabanas</a></li>
+                    <li class="m-0"><a href="panDeBono.html">Pan de bono</a></li>
+                  </div>
+                  <div class="col-md">
+                    <li class="m-0"><a href="panDeYuca.html">Pan de yuca</a></li>
+                    <li class="m-0"><a href="mantecadas.html">Mantecadas</a></li>
+                    <li class="m-0"><a href="achiras.html">Achiras</a></li>
+                    <li class="m-0"><a href="arepas.html">Arepas</a></li>
+                  </div>
+                </div>
+              </ul>
+            </li>
+            <li><a href="comunidad.html">Comunidad</a></li>
+          </ul>
+        </nav>
+      </header>
+    </section>
+    <!-- END Header -->
+
+    <main>
+      <!-- Slider image header -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/sliderAlmojabanas1.jpeg" class="d-block" width="100%" height="700"
+              alt="imagen alusiva slider 1">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Se denomina amasijo a la harina amasada que se emplea para hacer un pan.</h2>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/sliderAmasijos2.JPG" class="d-block" width="100%" height="700" alt="imagen alusiva slider 2">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>La felicidad huele a un amasijo recién hecho</h2>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/sliderPanaderia3.jpg" class="d-block" width="100%" height="700" alt="imagen alusiva slider 3">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>No existe modernidad sin una buena tradición</h2>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/sliderPanYucas4.jpg" class="d-block" width="100%" height="700" alt="imagen alusiva slider 4">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>El valor de una comunidad representa el trabajo acumulado</h2>
+            </div>
+          </div>
+        </div>
+        <div class="area-icon carousel-control-prev">
+          <span class="carousel-control-prev-icon" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev" aria-hidden="true"></span>
+        </div>
+        <div class="area-icon carousel-control-next">
+          <span class="carousel-control-next-icon" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next" aria-hidden="true"></span>
+        </div>
+      </div>
+      <!-- END Slider image header -->
+
+      <!-- History entry -->
+      <div class="container" style="max-width: 90%;">
+        <section class="content-first">
+          <div class="content-first-left text-center">
+            <img class="content-image" src="img/maizYucaBody1.jpg" width="90%" height="570"
+              alt="imagen alusiva al texto">
+          </div>
+          <div class="content-first-right">
+            <h1 class="text-center pt-5 pb-5">¿Qué son los amasijos?</h1>
+            <p class="pt-5 pb-5">
+              Si eres de las personas que le gusta viajar y conocer de los países que visita su comida y su gente,
+              cuando
+              visites Colombia no puedes
+              dejar de probar los amasijos típicos colombianos. Dentro de esta categoría de comidas quedan incluidas las
+              preparaciones que se realizan con harina de maíz, fécula o almidón.<br><br> Cuando la harina se obtiene de
+              cereales como el trigo, maíz o el arroz, hablamos de almidón, mientras que si la harina es obtenida de
+              tubérculos o rizomas como la papa, la yuca, entre otras, hablamos de fécula. <br><br>
+
+              Los amasijos típicos colombianos son una combinación de grasa, lácteos, proteína y azúcar, que resulta en
+              una
+              explosión de sabor sin igual. <br><br>
+
+              Sus preparaciones varían entre las regiones colombianas, los mismos cambian no solo en como son cocinados,
+              sino también en la variación de sus acompañantes, los cuales pueden cambiar entre dulces y salados.
+
+              Popularmente se le llama amasijo porque se realiza una mezcla que resulta en una masa compacta que
+              posteriormente es cocida al horno o frita en aceite vegetal.
+            </p>
+          </div>
+          <hr class="m-0">
+        </section>
+        <!-- END HISTORY ENTRIES -->
+
+        <!-- Video -->
+        <section class="m-5 p-5">
+          <h1 class="video-text">Amasijos tradicionales en colombia</h1>
+          <div class="video text-center">
+            <iframe width="1060" height="615" src="https://www.youtube.com/embed/Havk5dqayow"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </section>
+        <!-- END Video -->
+
+        <!-- History all entry -->
+        <section class="pt-5 pb-5">
+          <div class="row mt-5">
+            <div class="col-8 text-center">
+              <h1 class="mb-5">Reseña historica</h1>
+              <p class="mb-4 pt-5 pb-5">
+                Las historias dicen que los amasijos son una comida de origen indígena colombiana, otras dicen que
+                fueron
+                creadas en la época de la colonización, porque fue traído el trigo por los españoles y otras unen la
+                historia de los amasijos con la religión y cuentan que los mismos surgieron de los conventos o
+                comunidades
+                religiosas.
+              </p>
+              <p class="hyper-recetas">
+                <a href="seccion1.html">Ver más</a>
+              </p>
+            </div>
+            <div class="text-center col-4">
+              <img class="content-image" src="img/maizYucaBody2.jpg" width="90%" height="620"
+                alt="imagen alusiva al texto">
+            </div>
+          </div>
+        </section>
+
+        <!-- Products entry -->
+        <section class="mb-5 pt-5 pb-5">
+          <h1 class="text-center mb-5">Amasijos tradicionales</h1>
+          <div class="content-third row text-center p-5">
+            <div class="col" style="height: 300px;">
+              <img src="img/productosBuñuelos1.jpg" width="70%" height="90%" alt="imagen alusiva al buñuelo">
+              <h3 class="mt-4">Buñuelos</h3>
+            </div>
+            <div class="col">
+              <img src="img/productosAlmojabanas2.jpg" width="70%" height="90%" alt="imagen alusiva a la almojabana">
+              <h3 class="mt-4">Almojabanas</h3>
+            </div>
+            <div class="col">
+              <img src="img/productosPYuca3.jpg" width="70%" height="90%" alt="imagen alusiva al pan de yuca">
+              <h3 class="mt-4">Pan De Yuca</h3>
+            </div>
+            <div class="col">
+              <img src="img/productosArepas4.jpg" width="70%" height="90%" alt="imagen alusiva a la arepa">
+              <h3 class="mt-4">Arepas</h3>
+            </div>
+          </div>
+        </section>
+        <!-- END Products -->
+        <!-- END History  -->
+
+        <!-- Recetas all entry -->
+        <section class="pt-5 pb-5">
+          <div class="row mt-5">
+            <div class="col-4 text-center">
+              <img class="content-image" src="img/amasar.jpg" width="90%" height="610" alt="imagen alusiva al texto">
+            </div>
+            <div class="content-middle col-8 text-center">
+              <h1 class="mb-5">Recetas y tips</h1>
+              <p class="mb-4 pt-5 pb-5">
+                Todos crecimos con ellos, hacen parte de nuestras mañanas, nuestras onces y de cada una de nuestras
+                navidades. Y es que, ¿quién puede resistirse a los buñuelos, a las milhojas con masa de hojaldre, a las
+                almojábanas, el pan de yuca o las arepuelas? ¡Nadie!
+              </p>
+              <p class="hyper-recetas">
+                <a href="seccion2.html">Ver más</a>
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="pt-5 pb-5">
+          <h1 class="text-center mb-5 pb-5">Recetas de amasijos colombianos</h1>
+          <section class="content-third">
+            <div class="row pt-3">
+              <div class="text-center col-4">
+                <img src="img/recetasAlmojabanas1.jpg" width="65%" height="300px" alt="imagen alusiva al texto">
+              </div>
+              <div class="content-last p-3 col-8">
+                <h3>Almojabanas</h3>
+                <p class="mb-4 p-5 pb-5">
+                  La almojábana o almojábano es un panecillo dulce típico de la cocina de Colombia​ y algunos países de
+                  América Latina.
+                </p>
+              </div>
+            </div>
+            <div class="row pt-5">
+              <div class="content-last p-3 col-8">
+                <h3>Buñuelos</h3>
+                <p class="mb-4 p-5 pb-5">
+                  El buñuelo es un tipo de fruta de sartén de origen español que consiste en una masa de harina frita
+                  con
+                  forma circular.
+                </p>
+              </div>
+              <div class="text-center col-4">
+                <img src="img/RecetasBuñuelos2.jpg" width="65%" alt="imagen alusiva al texto">
+              </div>
+            </div>
+            <div class="row pt-5">
+              <div class="text-center col-4">
+                <img src="img/recetasYuca3.jpg" width="65%" height="300px" alt="imagen alusiva al texto">
+              </div>
+              <div class="content-last col-8">
+                <h3>Pan De Yuca</h3>
+                <p class="mb-4 p-5 pb-5">
+                  El pandeyuca o pan de yuca es una pieza de panadería en forma de panecillo, elaborado con queso blanco
+                  molido, almidón de yuca cernido, huevo, polvo de hornear y sal
+                </p>
+              </div>
+            </div>
+            <div class="row pt-5">
+              <div class="content-last col-8">
+                <h3>Arepas</h3>
+                <p class="mb-4 p-5 pb-5">
+                  La arepa es un alimento de origen precolombino, hecho a base de masa de maíz seco molido o de harina
+                  de
+                  maíz
+                  precocida..
+                </p>
+              </div>
+              <div class="text-center col-4">
+                <img src="img/RecetasArepas4.jpg" width="65%" height="300px" alt="imagen alusiva al texto">
+              </div>
+            </div>
+          </section>
+        </section>
+      </div>
+      <!-- END Recetas  -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="part-footer">
+      <div class="container" style="max-width: 100%;">
+        <div class="row">
+          <div class="col text-center">
+            <section class="logo">
+              <img src="img/logoHeader.png" width="300px" height="200px" alt="logo de la empresa">
+              <p class="m-0">Amasijos Tradicionales</p>
+            </section>
+            <section class="icons-footer pt-5">
+              <a class="m-5" href=""><i class="fa-brands fa-facebook-f"></i></a>
+              <a class="m-5" href=""><i class="fa-brands fa-instagram"></i></a>
+              <a class="m-5" href=""><i class="fa-brands fa-twitter"></i></a>
+              <a class="m-5" href=""><i class="fa-brands fa-pinterest-p"></i></a>
+            </section>
+          </div>
+          <div class="col">
+            <p class="credits text-center mb-0">Bogotá D.C - Colombia <br><br>
+              amasijosTradicionales@gmail.com <br><br><br>
+              © Copyright 2022 - amasijos tradicionales
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- END footer -->
+  </div>
+  <!-- END container Boostrap -->
+</body>
+<!-- END Body -->
+
+</html>
+<!-- End Html -->
