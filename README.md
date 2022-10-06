@@ -104,34 +104,8 @@ Esta parte del código incluida en las etiquetas ```<body><main></main></body>``
 ![image](https://user-images.githubusercontent.com/80645321/194388044-93ecf446-7a39-4604-bcef-ce2a70a143e2.png)
 
 ## Sección de las recetas de los amasijos 🔸
-```
-<!-- Recetas all entry -->
-   <section class="pt-5 pb-5">
-     <div class="row mt-5">
-       <div class="col-4 text-center">
-         'etiqueta para la imagen alusiva a la sección'
-       </div>
-       <div class="content-middle col-8 text-center">
-         'etiquetas para el título, descripción sobre la sección y enlace'
-       </div>
-     </div>
-   </section>
-   <section class="pt-5 pb-5">
-     <section class="content-third">
-       <div class="row pt-3">
-         <div class="text-center col-4">
-           'etiqueta para la imagen alusiva al producto'
-         </div>
-         <div class="content-last p-3 col-8">
-           'etiquetas para el título y descripción del producto'
-         </div>
-       </div>
-       <div class="row pt-5">
-     </section>
-   </section>
-<!-- END Recetas  -->
-```
-Esta parte del código incluida en las etiquetas ```<body><main></main></body>```, tiene como propósito informar a los usuarios sobre “Las recetas comunes de los amasijos” esa información descriptiva se encuentra al lado de una imagen alusiva sobre el tema y un enlace donde redirige a una nueva vista con información más detallada. Con la ayuda de las filas y las columnas que brinda Bootstrap para controlar elementos seguidos como en este caso. Luego se incluyen imágenes representativas sobre algunos amasijos tradicionales.
+    
+Esta parte con base al código antes visto esta incluida en las etiquetas ```<body><main></main></body>```, tiene como propósito informar a los usuarios sobre “Las recetas comunes de los amasijos” esa información descriptiva se encuentra al lado de una imagen alusiva sobre el tema y un enlace donde redirige a una nueva vista con información más detallada. Con la ayuda de las filas y las columnas que brinda Bootstrap para controlar elementos seguidos como en este caso. Luego se incluyen imágenes representativas sobre algunos amasijos tradicionales.
 
 ![image](https://user-images.githubusercontent.com/80645321/194388113-61040337-a5cb-4cab-a7dd-1757edb3201d.png)
 
