@@ -2,6 +2,7 @@
 
 ## **Amasijos Tradicionales de Colombia**
 La página web se enfoca principalmente en informar a la comunidad todo lo relacionado con los amasijos tradicionales en Colombia que son un manjar para los colombianos, primordialmente se describe el significado de la palabra amasijo y la historia de cada producto que lo denomina. Además, se da una pequeña receta de cada amasijo tradicional para realizar la preparación en casa. Finalmente, se desarrolla un espacio para que los usuarios puedan interactuar mecho mejor con la página y comentar sobre que tal le pareció la receta o como tal la página. 
+#### Puedes visualizar la página 👉👉 https://jhonattanssg01.github.io/AmasijosTradicionales/
 
 ## Inicio del proyecto 💢
 
@@ -148,19 +149,19 @@ Esta parte del código se describe el pie de página de una web, en esta última
 
 ![image](https://user-images.githubusercontent.com/80645321/194388225-14718d48-d7c7-4114-a117-bea85b2d824e.png)
 
-# Vistas secundarias 🟧🟨
+# Vistas 🟧🟨🟩🟦
 
 Con base a la estructura desarrollada en la página principal, logre realizar las vistas restantes con información más detalla sobre cada sección, solamente tuve que reorganizar algunas cosas, cambiar el contenido para visualizar lo necesario y lo descritivo de la vista propuesta.
 ### En cada vista siempre permanecio la msima estructura del encabezado con su menú y el pie de página.
 
 >Vista historia
-![image](https://user-images.githubusercontent.com/80645321/194391488-40e7b48c-fc16-49ed-a105-3662e4faa3da.png)
+![image](https://user-images.githubusercontent.com/80645321/194437122-e2c435e6-8c71-46f5-9ba1-2289ddd5c1e2.png)
 
 >Vista recetas
-![image](https://user-images.githubusercontent.com/80645321/194391671-cbddb8a8-2691-4b21-84d6-9962f0fd7b33.png)
+![image](https://user-images.githubusercontent.com/80645321/194437152-52fe5d19-ac0c-4736-8c12-b8b9b61c37dc.png)
 
 >Vista recetas por producto
-![image](https://user-images.githubusercontent.com/80645321/194393510-77a1fb24-e8fd-4402-830a-748b93721d12.png)
+![image](https://user-images.githubusercontent.com/80645321/194437195-cd0b3155-4183-4b31-bf02-092daefea79e.png)
 
 >Vista comunidad
 ![image](https://user-images.githubusercontent.com/80645321/194392099-24b5389f-46c3-46aa-8573-d5a7f780c85c.png)
