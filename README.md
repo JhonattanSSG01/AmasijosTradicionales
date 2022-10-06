@@ -176,19 +176,40 @@ Esta parte del código se describe el pie de página de una web, en esta última
 Con base a la estructura desarrollada en la página principal, logre realizar las vistas restantes con información más detalla sobre cada sección, solamente tuve que reorganizar algunas cosas, cambiar el contenido para visualizar lo necesario y lo descritivo de la vista propuesta.
 ### En cada vista siempre permanecio la msima estructura del encabezado con su menú y el pie de página.
 
->Sección historia
+>Vista historia
 ![image](https://user-images.githubusercontent.com/80645321/194391488-40e7b48c-fc16-49ed-a105-3662e4faa3da.png)
 
->Sección recetas
+>Vista recetas
 ![image](https://user-images.githubusercontent.com/80645321/194391671-cbddb8a8-2691-4b21-84d6-9962f0fd7b33.png)
 
->Sección recetas por producto
-![image](https://user-images.githubusercontent.com/80645321/194391865-83f9b976-e05c-414f-8b03-91c313a89495.png)
+>Vista recetas por producto
+![image](https://user-images.githubusercontent.com/80645321/194393510-77a1fb24-e8fd-4402-830a-748b93721d12.png)
 
->Sección comunidad
+>Vista comunidad
 ![image](https://user-images.githubusercontent.com/80645321/194392099-24b5389f-46c3-46aa-8573-d5a7f780c85c.png)
 
 
 ## Sección de formularios
 
+```
+<!-- Formulario -->
+   <div class="container">
+     <form>
+       <div class="row">
+         <div class="content-formulario col-md">
+          'etiquetta para un campo de texto'    
+         </div>
+         <div class="content-formulario col-md">
+           'etiquetta para un campo de texto'      
+         </div>
+        </div>
+        <section class="content-formulario p-4">
+         'etiquetta para un campo de texto'  
+        </section>
+        'etiquetta para el botón de envio'  
+      </div>
+    </form>
+  </div>
+<!-- END Formulario -->
+```
 
