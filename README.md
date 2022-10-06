@@ -189,6 +189,7 @@ Con base a la estructura desarrollada en la página principal, logre realizar la
 ![image](https://user-images.githubusercontent.com/80645321/194392099-24b5389f-46c3-46aa-8573-d5a7f780c85c.png)
 
 
+     
 ## Sección de formularios
 
 ```
@@ -212,4 +213,8 @@ Con base a la estructura desarrollada en la página principal, logre realizar la
   </div>
 <!-- END Formulario -->
 ```
+
+Esta parte del código abarca un formulario básico que se encuentra en cada receta y en el foro para que los usuarios puedan dar sus opiniones frente a la web.
+    
+![image](https://user-images.githubusercontent.com/80645321/194395599-6dd3f349-34df-4c2e-b1b2-0f67e406daee.png)
 
