@@ -2,7 +2,7 @@
 
 ## **Amasijos Tradicionales de Colombia**
 La página web se enfoca principalmente en informar a la comunidad todo lo relacionado con los amasijos tradicionales en Colombia que son un manjar para los colombianos, primordialmente se describe el significado de la palabra amasijo y la historia de cada producto que lo denomina. Además, se da una pequeña receta de cada amasijo tradicional para realizar la preparación en casa. Finalmente, se desarrolla un espacio para que los usuarios puedan interactuar mecho mejor con la página y comentar sobre que tal le pareció la receta o como tal la página. 
-#### Puedes visualizar la página 👉👉 https://jhonattanssg01.github.io/AmasijosTradicionales/
+#### ***Puedes visualizar la página*** 👉👉 https://jhonattanssg01.github.io/AmasijosTradicionales/
 
 ## Inicio del proyecto 💢
 
