@@ -48,7 +48,8 @@ Prácticamente en esta parte del código se importan los diferentes recursos que
 Esta parte del código incluida en la etiqueta <body></body> se le agregó un contenedor para tener control del ancho máximo para que no se desbordara algún contenido, en ella nos encontramos el encabezado del documento que incluye el logo, nombre de la empresa y un menú para poder navegar a distintas vistas dentro de la web. Además, en el menú se encuentra una parte desplegable que abarca variadas recetas de una sola sección llamada recetas, con la ayuda de Bootstrap se logró implementar para una mejor facilidad de uso, comparándolo esta parte con el Wireframe y Mockup anteriormente realizado, decide añadir esa funcionalidad sin haberla incluido en el diseño. 
 
 Por último, el encabezado está incluido en una sección principal para poder tener el menú fijado en la Ventana y siempre tener la facilidad de interactuar con el menú sin necesidad de volver hasta la parte superior, al principio sé ME complico, ya que, dos pociones entraron en conflicto y no me daba el resultado que quería, revisando el código logre encontrar el bug y solucionarlo lo cual logre obtener lo que esperaba.
-
+ 
+🔗🔗
 ![image](https://user-images.githubusercontent.com/80645321/194388408-adfb171b-3ead-4990-be05-1e191b263bda.png)
 
 ## Slider de imágenes 🔸
@@ -63,6 +64,7 @@ Por último, el encabezado está incluido en una sección principal para poder t
 ```
 Esta parte del código incluida en las etiquetas ```<body><main></main></body>```, abarca la sección de un carrusel de imágenes alusivas a los amasijos tradicionales la cual puede llevar a cabo con la ayuda de Bootstrap, el desafío fue poder cambiar gran parte de su estructura y estilo para lograr lo propuesto en el diseño, pero finalmente lo logre con la ayuda de la herramienta de desarrollador que nos ofrece el navegador para revisar toda la estructura de HTML y CSS.
 
+🔗🔗
 ![image](https://user-images.githubusercontent.com/80645321/194387787-a82a808a-bf40-4df2-8e22-45dc81efa72b.png)
 
 ## Sección de información sobre el significado de los amasijos 🔸
@@ -82,6 +84,7 @@ Esta parte del código incluida en las etiquetas ```<body><main></main></body>``
 ```
 Esta parte del código incluida en las etiquetas ```<body><main></main></body>```, tiene como propósito informar a los usuarios sobre “¿Qué son los amasijos?” y esa información descriptiva envuelve alrededor una imagen alusiva sobre el tema principal.
 
+🔗🔗
 ![image](https://user-images.githubusercontent.com/80645321/194387917-865cb2b7-e469-40ae-aafa-fbdc00b90202.png)
 
 ## Sección de la historia de los amasijos y sus productos 🔸
@@ -101,6 +104,7 @@ Esta parte del código incluida en las etiquetas ```<body><main></main></body>``
 ```
 Esta parte del código incluida en las etiquetas ```<body><main></main></body>```, tiene como propósito informar a los usuarios sobre “La historia de los amasijos en Colombia” esa información descriptiva se encuentra al lado de una imagen alusiva sobre el tema y un enlace para visualizar mejor la información. Con la ayuda de las filas y las columnas que brinda Bootstrap para controlar elementos seguidos como en este caso. Luego se incluyen imágenes representativas sobre algunos amasijos tradicionales.
 
+🔗🔗
 ![image](https://user-images.githubusercontent.com/80645321/194388044-93ecf446-7a39-4604-bcef-ce2a70a143e2.png)
 
 ## Sección de las recetas de los amasijos 🔸
@@ -120,10 +124,11 @@ Esta parte con base al código antes visto esta incluida en las etiquetas ```<bo
 <!-- END footer -->
 ```
 Esta parte del código se describe el pie de página de una web, en esta última sección abarca información puntual sobre la empresa seguida de las diferentes redes sociales con las cuales se puede contactar igualmente que el correo empresarial y finalmente la ubicación donde se encuentre la empresa actualmente.
-
+    
+🔗🔗
 ![image](https://user-images.githubusercontent.com/80645321/194388225-14718d48-d7c7-4114-a117-bea85b2d824e.png)
 
-# Vistas 🟧🟨🟩🟦
+# Vistas Generales 🟧🟨🟩🟦
 
 Con base a la estructura desarrollada en la página principal, logre realizar las vistas restantes con información más detalla sobre cada sección, solamente tuve que reorganizar algunas cosas, cambiar el contenido para visualizar lo necesario y lo descritivo de la vista propuesta.
 ### En cada vista siempre permanecio la misma estructura del encabezado con su menú y el pie de página.
@@ -166,6 +171,7 @@ Con base a la estructura desarrollada en la página principal, logre realizar la
 ```
 
 Finalmente esta parte del código abarca un formulario básico que se encuentra en cada receta y en el foro para que los usuarios puedan dar sus opiniones frente a la web.
-
+    
+🔗🔗
 ![image](https://user-images.githubusercontent.com/80645321/194395599-6dd3f349-34df-4c2e-b1b2-0f67e406daee.png)
 
