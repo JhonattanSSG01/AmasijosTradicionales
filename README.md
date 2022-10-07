@@ -1,13 +1,13 @@
 # Bienvenidos 👋👋!!! 
 
-## **Amasijos Tradicionales de Colombia**
+## #Amasijos Tradicionales de Colombia 🤤😋
 La página web se enfoca principalmente en informar a la comunidad todo lo relacionado con los amasijos tradicionales en Colombia que son un manjar para los colombianos, primordialmente se describe el significado de la palabra amasijo y la historia de cada producto que lo denomina. Además, se da una pequeña receta de cada amasijo tradicional para realizar la preparación en casa. Finalmente, se desarrolla un espacio para que los usuarios puedan interactuar mecho mejor con la página y comentar sobre que tal le pareció la receta o como tal la página. 
 #### ***Puedes visualizar la página*** 👉👉 https://jhonattanssg01.github.io/AmasijosTradicionales/
 
 ## Inicio del proyecto 💢
 
-Principalmente, se inició clonando el repositorio de GitHub donde se alojaba una plantilla guía de HTML para lograr desarrollar nuestra web tributo con base en esa plantilla.
-### 	El comando en Git para clonar el repositorio es $ git clone <URL del repositorio a clonar> 📥
+>Principalmente, se inició clonando el repositorio de GitHub donde se alojaba una plantilla guía de HTML para lograr desarrollar nuestra web tributo con base en esa plantilla.
+>### 	El comando en Git para clonar el repositorio es $ git clone <URL del repositorio a clonar> 📥
 
 Luego de revisar la estructura propuesta de la plantilla, logre entender que se manejó mediante una librería la cual era W3School para dar una mejor visualización acorde. De igual manera, decidí cambiarla por la librería Bootstrap la cual ya tengo un poco de experiencia en utilizarla.
 
@@ -165,7 +165,7 @@ Con base a la estructura desarrollada en la página principal, logre realizar la
 <!-- END Formulario -->
 ```
 
-Esta parte del código abarca un formulario básico que se encuentra en cada receta y en el foro para que los usuarios puedan dar sus opiniones frente a la web.
+Finalmente esta parte del código abarca un formulario básico que se encuentra en cada receta y en el foro para que los usuarios puedan dar sus opiniones frente a la web.
 
 ![image](https://user-images.githubusercontent.com/80645321/194395599-6dd3f349-34df-4c2e-b1b2-0f67e406daee.png)
 
