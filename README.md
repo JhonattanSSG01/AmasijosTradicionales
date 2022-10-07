@@ -126,7 +126,7 @@ Esta parte del código se describe el pie de página de una web, en esta última
 # Vistas 🟧🟨🟩🟦
 
 Con base a la estructura desarrollada en la página principal, logre realizar las vistas restantes con información más detalla sobre cada sección, solamente tuve que reorganizar algunas cosas, cambiar el contenido para visualizar lo necesario y lo descritivo de la vista propuesta.
-### En cada vista siempre permanecio la msima estructura del encabezado con su menú y el pie de página.
+### En cada vista siempre permanecio la misma estructura del encabezado con su menú y el pie de página.
 
 >Vista historia
 ![image](https://user-images.githubusercontent.com/80645321/194437122-e2c435e6-8c71-46f5-9ba1-2289ddd5c1e2.png)
