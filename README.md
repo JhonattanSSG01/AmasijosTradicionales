@@ -57,7 +57,7 @@ Por último, el encabezado está incluido en una sección principal para poder t
 <!-- Slider image header -->
    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
      <div class="carousel-indicators">
-      'etiquetas correspondientes que brinda Boostrap para el carusel de imagenes'
+      'etiquetas correspondientes que brinda Boostrap para el carrusel de imagenes'
      </div>
   </div>
 <!-- END Slider image header -->
